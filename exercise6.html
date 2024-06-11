@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise-6</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            display: flex;
+            box-sizing: border-box;
+            width: 80vw;
+            justify-content: space-between;
+            margin: 20px 120px;
+        }
+
+        .items {
+            display: inline-flex;
+            list-style: none;
+            gap: 20px;
+            align-items: flex-end;
+        }
+
+        li{
+            display: flex;
+            align-items: center;
+        }
+
+        li:hover {
+            color: rgb(107, 101, 101);
+            transition: 0.5s;
+        }
+
+        svg:hover {
+            color: rgb(107, 101, 101);
+            transition: 0.5s;
+        }
+        .items>li>span>svg{
+            display: flex;
+            padding: 0px 3px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="https://www.ultraedit.com/wp-content/uploads/2023/01/UE-Logo-1.webp" alt="logo" height="83"
+                width="259">
+        </div>
+        <div class="items">
+            <li>Products
+                <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="15" height="24" color="#000000"
+                        fill="none">
+                        <path d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9" stroke="currentColor"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg></span>
+            </li>
+            <li>Pricing
+                <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="15" height="24" color="#000000"
+                        fill="none">
+                        <path d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9" stroke="currentColor"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </span>
+            </li>
+            <li>Resources
+                <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="15" height="24" color="#000000"
+                        fill="none">
+                        <path d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9" stroke="currentColor"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </span>
+            </li>
+            <li>About Us
+                <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="15" height="24" color="#000000"
+                        fill="none">
+                        <path d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9" stroke="currentColor"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </span>
+            </li>
+            <li>
+                <img src="https://www.ultraedit.com/wp-content/themes/Divi_Child/img/Lang.png" alt="Language">
+            </li>
+        </div>
+    </div>
+</body>
+
+</html>
